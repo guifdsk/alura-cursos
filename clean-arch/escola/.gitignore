@@ -1,11 +1,12 @@
-Help.md
+build/
+bin/
 target/
-!.mvn/wrapper/maven=warpper.jar
+!.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
 !**/src/test/**
 
 ### STS ###
-.apt_genereted
+.apt_generated
 .classpath
 .factorypath
 .project
@@ -13,15 +14,22 @@ target/
 .springBeans
 .sts4-cache
 
-### intelliJ IDEA ###
+### IntelliJ IDEA ###
 .idea
 *.iws
 *.iml
 *.ipr
 
-### VS CODE ###
-.vscode/
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
 
+### VS Code ###
+.vscode/
 
 ### Node ###
 node_modules/
